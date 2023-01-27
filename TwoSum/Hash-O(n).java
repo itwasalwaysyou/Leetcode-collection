@@ -14,7 +14,7 @@ class Solution {
 
 
         }
-            throw new IllegalArgumentException("");
+            throw new IllegalArgumentException(""); //Or just return null
     }
 
 
