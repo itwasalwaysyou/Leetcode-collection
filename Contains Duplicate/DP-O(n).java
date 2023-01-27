@@ -6,7 +6,7 @@ class Solution {
 
         for(int i=1; i< nums.length;i++){
 
-                 Curr_Sum = Math.max(nums[i],Curr_Sum+nums[i]);
+                 Curr_Sum = Math.max(nums[i],Curr_Sum+nums[i]); //if the sum is less then 0? Y-> Delect N-> Keep
                  Max_Sum = Math.max(Curr_Sum,Max_Sum);
             }     
         
